@@ -1,3 +1,6 @@
 en:
   js:
     small_caps:
+      composer:
+        smallcaps_label: "Aᴀ"
+        smallcaps_title: "Small caps"
