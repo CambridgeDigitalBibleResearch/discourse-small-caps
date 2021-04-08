@@ -1,0 +1,4 @@
+plugins:
+  small_caps_enabled:
+    default: true
+    client: true
