@@ -1,14 +1,16 @@
-# SmallCaps
+# Small Caps for Discourse
 
-SmallCaps is a plugin for ...
+This plugin lets you format Discourse posts with <span style="font-variant: small-caps">Small caps</span>.
 
 ## Installation
 
 Follow [Install a Plugin](https://meta.discourse.org/t/install-a-plugin/19157)
-how-to from the official Discourse Meta, using `git clone https://github.com/DawnPaladin/small-caps.git`
+how-to from the official Discourse Meta, using `git clone https://github.com/DawnPaladin/discourse-small-caps.git`
 as the plugin command.
 
 ## Usage
+
+You'll find an "Aᴀ" button in the editing toolbar; click it to add [smallcaps] tags around your text.
 
 ## Feedback
 

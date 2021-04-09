@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
-# name: SmallCaps
-# about: Add smallcaps formatting to your posts
-# version: 0.1
+# name: Small Caps
+# about: Add small caps formatting to your posts
+# version: 1.0
 # authors: DawnPaladin
-# url: https://github.com/DawnPaladin
+# url: https://github.com/DawnPaladin/discourse-small-caps
 
 register_asset 'stylesheets/common/small-caps.scss'
 register_asset 'stylesheets/desktop/small-caps.scss', :desktop

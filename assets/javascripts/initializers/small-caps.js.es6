@@ -15,14 +15,6 @@ function initializeSmallCap(api) {
   });
 }
 
-// function replaceText(text) {
-//   return text.replaceAll(/(\[smallcaps\]([\s\S]*?)\[\/smallcaps\])/g, "<span class='small-caps'>$2</span>");
-// }
-
-// decorateWidget("smallCaps", helper => {
-//   return helper.h('span.smallCaps', );
-// });
-
 export default {
   name: "small-caps",
 
