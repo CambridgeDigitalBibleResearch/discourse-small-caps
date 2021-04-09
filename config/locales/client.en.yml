@@ -1,5 +1,7 @@
 en:
   js:
+    composer:
+        smallcaps_default_text: "Text"
     small_caps:
       composer:
         smallcaps_label: "Aᴀ"

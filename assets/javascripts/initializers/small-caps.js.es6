@@ -8,12 +8,20 @@ function initializeSmallCap(api) {
       id: "smallcaps_button",
       group: "fontStyles",
       icon: "font",
-      perform: e => e.applySurround('[smallcaps]', '[/smallcaps]', 'smallcaps_text'),
+      perform: e => e.applySurround('[smallcaps]', '[/smallcaps]', 'smallcaps_default_text'),
       label: "small_caps.composer.smallcaps_label",
       title: "small_caps.composer.smallcaps_title"
     });
   });
 }
+
+// function replaceText(text) {
+//   return text.replaceAll(/(\[smallcaps\]([\s\S]*?)\[\/smallcaps\])/g, "<span class='small-caps'>$2</span>");
+// }
+
+// decorateWidget("smallCaps", helper => {
+//   return helper.h('span.smallCaps', );
+// });
 
 export default {
   name: "small-caps",
