@@ -1,6 +1,6 @@
 # Small Caps for Discourse
 
-This plugin lets you format Discourse posts with small caps.
+This plugin lets you format Discourse posts with Sᴍᴀʟʟ Cᴀᴘs.
 
 ## Installation
 
