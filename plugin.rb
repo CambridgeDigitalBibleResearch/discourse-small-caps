@@ -12,7 +12,7 @@ register_asset 'stylesheets/mobile/small-caps.scss', :mobile
 
 enabled_site_setting :small_caps_enabled
 
-PLUGIN_NAME ||= 'SmallCap'
+PLUGIN_NAME ||= 'SmallCaps'
 
 load File.expand_path('lib/small-caps/engine.rb', __dir__)
 

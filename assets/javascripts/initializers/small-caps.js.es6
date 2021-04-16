@@ -1,6 +1,6 @@
 import { withPluginApi } from "discourse/lib/plugin-api";
 
-function initializeSmallCap(api) {
+function initializeSmallCaps(api) {
   // https://github.com/discourse/discourse/blob/master/app/assets/javascripts/discourse/app/lib/plugin-api.js
 
   api.onToolbarCreate(toolbar => {
@@ -19,6 +19,6 @@ export default {
   name: "small-caps",
 
   initialize() {
-    withPluginApi("0.8.31", initializeSmallCap);
+    withPluginApi("0.8.31", initializeSmallCaps);
   }
 };

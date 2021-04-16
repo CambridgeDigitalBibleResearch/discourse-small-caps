@@ -1,6 +1,6 @@
-module SmallCap
-  class SmallCapController < ::ApplicationController
-    requires_plugin SmallCap
+module SmallCaps
+  class SmallCapsController < ::ApplicationController
+    requires_plugin SmallCaps
 
     before_action :ensure_logged_in
 
